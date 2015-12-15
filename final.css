@@ -12,7 +12,7 @@
 
 .jumbotron {
   background-image:url('https://scontent-lga3-1.xx.fbcdn.net/hphotos-xaf1/t31.0-8/c0.128.851.315/p851x315/10648873_1669617846593277_3523093347587129361_o.jpg');
-  height: 300px;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -24,13 +24,13 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 48px;  
+  font-size: 52px;  
   font-family: 'Architects Daughter', cursive;
   font-weight: bold;
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
 }
 
