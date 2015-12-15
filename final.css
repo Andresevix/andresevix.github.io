@@ -51,20 +51,20 @@
 .neighborhood-guides{
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
-    background-color: #e5ffff;
+
 }
 
 .neighborhood-guides h2{
     color: #004d1a;
     font-size: 24px;
-    background-color: #e5ffff;
+   
 
 }
 
 .neighborhood-guides p{
      font-size: 15px;
     margin-bottom: 13px; 
-    background-color: #e5ffff;
+   
 }
 
 .body {
