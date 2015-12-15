@@ -51,6 +51,7 @@
 .neighborhood-guides{
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
+    background-color: #e5ffff;
 }
 
 .neighborhood-guides h2{
@@ -62,7 +63,8 @@
 
 .neighborhood-guides p{
      font-size: 15px;
-    margin-bottom: 13px;    
+    margin-bottom: 13px; 
+    background-color: #e5ffff;
 }
 
 .body {
