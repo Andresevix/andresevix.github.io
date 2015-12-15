@@ -9,6 +9,11 @@
   window.open("pricing.html","Popup","height=300,width=600,top=200,left=400");
   }
   </script>
+
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet"></link>
+</head>
   <style>
     body{
       text-align: center;
@@ -26,7 +31,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7276a5', end
          }
     
   a { 
-    color: #fff; 
+    color: #B81577; 
   }
   
   a:hover {
@@ -34,7 +39,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7276a5', end
   }
   
   a:visited{ 
-    color: #fff;
+    color: #B81577;
   }
  
  h1 {
@@ -111,7 +116,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#917a7a', end
   color: #B81577;
   font-size: 10px;
 }
-#photo-portfolio{
+.photo-portfolio{
   border-radius: 6px;
 }
 #footer{
@@ -185,7 +190,7 @@ height: 500px;
 <section id="who-i-am">
 <div class="container">
   <h1>Who I Am</h1>
-  <img id="image" src="https://scontent-iad3-1.cdninstagram.com/hphotos-xaf1/t51.2885-19/s150x150/11881620_641573209317029_707898006_a.jpg" width="150xp">
+  <img id="image" src="https://scontent-iad3-1.cdninstagram.com/hphotos-xaf1/t51.2885-19/s150x150/11881620_641573209317029_707898006_a.jpg" width="150px" alt="me">
 
   <p id="bio"> My name is Andrés Chacin and I study in Ai Miami International University. My mayor is Graphic Design. I'm originally from Venezuela. I'm 18 years old. Let's make cool stuff.</p>
 </div>
@@ -195,10 +200,12 @@ height: 500px;
   <h1 id="portfolio-h1">Portfolio</h1>
   <p id="portfolio-text">Check Out My Recent Doodles</p>
   <a href="https://instagram.com/andresexiv/"><p id="funny-instagram">(Mostly in Instagram)</p></a>
-  <a href="https://c1.staticflickr.com/1/708/22500897416_435a88cc3f_b.jpg"><img id="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c1.staticflickr.com/1/708/22500897416_435a88cc3f_b.jpg" width="190px"></a>
-  <a href="https://c1.staticflickr.com/1/691/22119675386_58cac2bf44_b.jpg"><img id="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c1.staticflickr.com/1/691/22119675386_58cac2bf44_b.jpg" width="242px"></a>
-  <a href="https://c2.staticflickr.com/6/5828/20743706240_d3cd100cf5_b.jpg"><img id="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c2.staticflickr.com/6/5828/20743706240_d3cd100cf5_b.jpg" width="289px"></a>
-  <a href="https://c2.staticflickr.com/6/5744/22707536776_7e9d55c0c8_h.jpg"><img id="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c2.staticflickr.com/6/5744/22707536776_991925f08d_b.jpg" width="222px"></a>
+  
+  <a class="test-popup-link" href="https://c1.staticflickr.com/1/708/22500897416_435a88cc3f_b.jpg"><img class="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c1.staticflickr.com/1/708/22500897416_435a88cc3f_b.jpg" width="190px"></a>
+  <a class="test-popup-link" href="https://c1.staticflickr.com/1/691/22119675386_58cac2bf44_b.jpg"><img class="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c1.staticflickr.com/1/691/22119675386_58cac2bf44_b.jpg" width="242px"></a>
+  <a class="test-popup-link" href="https://c2.staticflickr.com/6/5828/20743706240_d3cd100cf5_b.jpg"><img class="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c2.staticflickr.com/6/5828/20743706240_d3cd100cf5_b.jpg" width="289px"></a>
+  <a class="test-popup-link" href="https://c2.staticflickr.com/6/5744/22707536776_7e9d55c0c8_h.jpg"><img class="photo-portfolio" alt="Graphic Design Poster Typographic" src="https://c2.staticflickr.com/6/5744/22707536776_7e9d55c0c8_h.jpg" width="222px"></a>
+</div>
 </section>
 <section id="how-i-work">
   <div class="container">
@@ -222,7 +229,7 @@ Google Hangout
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></section>
 <section>
 <h1>Instagram Me</h1>
-<iframe src="http://snapwidget.com/in/?u=YW5kcmVzZXhpdnxpbnwxMjV8M3wzfHx5ZXN8NXxmYWRlSW58b25TdGFydHx5ZXN8bm8=&ve=301115" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:420px; height:420px"></iframe></section>
+<iframe src="http://snapwidget.com/in/?u=YW5kcmVzZXhpdnxpbnwxMjV8M3wzfHx5ZXN8NXxmYWRlSW58b25TdGFydHx5ZXN8bm8=&ve=301115" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" style="border:none; overflow:hidden; width:420px; height:420px"></iframe></section>
 <footer>
   <section id="footer">
     <div class="container">
@@ -237,4 +244,11 @@ Google Hangout
 </section>
 
 </footer>
+<script>
+$('.test-popup-link').magnificPopup({
+  type: 'image',
+  gallery: {enabled:true}
+  // other options
+});
+</script>
 </body>
